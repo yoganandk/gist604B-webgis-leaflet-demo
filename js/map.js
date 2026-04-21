@@ -1,11 +1,12 @@
+// map.js
+// Loads OSM data and displays restaurants, cycleways, and city boundary using Leaflet
+
 // ============================================
 // Step 1: Initialize the map
 // ============================================
 
-// TODO:
-// - Create the map
-// - Center it on your study area
-// - Choose an appropriate zoom level
+// Create a Leaflet map in the "map" div
+// setView([lat, lon], zoom)
 
 
 
@@ -13,18 +14,18 @@
 // Step 2: Add a basemap
 // ============================================
 
-// TODO:
-// - Add an OpenStreetMap basemap
-// - Include attribution
+// Tile layer provides the visual background
 
 
 
 // ============================================
-// Step 3: Add zoom controls
+// Step 3: Add/Customize controls
 // ============================================
 
-// TODO:
-// - Decide where zoom controls should appear
+// Move zoom buttons (default = topleft)
+
+
+// Add a scale bar
 
 
 
@@ -32,78 +33,30 @@
 // Step 4: Create layer groups
 // ============================================
 
-// TODO:
-// - Create layer groups for points, lines, and polygons
-// - Add them to the map
+// Layer groups allow toggling layers on/off
 
 
 
-// ============================================
-// Step 5: Load point GeoJSON + popups
-// ============================================
+// UI control to toggle layers
 
-// TODO:
-// - Load point data from the data/ folder
-// - Add it to the points layer
-// - Use onEachFeature() to add popups
-// - Display meaningful attributes in the popup
 
 
 
 // ============================================
-// Step 6: Load line GeoJSON + popups
+// Step 5: Load point data (Restaurants)
 // ============================================
 
-// TODO:
-// - Load line data from the data/ folder
-// - Style the line layer
-// - Add popups using onEachFeature()
 
 
 
 // ============================================
-// Step 7: Load polygon GeoJSON + popups
+// Step 6: Load line data (Cycleways)
 // ============================================
 
-// TODO:
-// - Load polygon data from the data/ folder
-// - Style the polygon layer
-// - Add popups using onEachFeature()
 
 
 
 // ============================================
-// Step 8: Add attribute-based styling
+// Step 7: Load polygon data (Boundary)
 // ============================================
 
-// TODO:
-// - Use one attribute to control styling
-// - Apply it to at least one layer
-
-
-
-// ============================================
-// Step 9: Fit map to data
-// ============================================
-
-// TODO:
-// - Use fitBounds() on one of your layers
-
-
-
-// ============================================
-// Step 10: Add layer control
-// ============================================
-
-// TODO:
-// - Add a layer control for points, lines, and polygons
-
-
-
-// ============================================
-// Step 11: Add simple interactivity
-// ============================================
-
-// TODO:
-// - Add one interaction beyond popups
-// - Example: hover highlight or filtering

@@ -1,4 +1,4 @@
-// map_code.js
+// map_withCode.js
 // Loads OSM data and displays restaurants, cycleways, and city boundary using Leaflet
 
 // ============================================
